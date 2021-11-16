@@ -74,8 +74,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME' : 'istech_management',
         'HOST' : '127.0.0.1',
-        'USER' : 'root',
-        'PASSWORD' : '1',
+        'USER' : 'lad',
+        'PASSWORD' : 'Vnu.edu.vn.2020',
         'PORT' : '3306',
     }
 }
