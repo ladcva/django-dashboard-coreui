@@ -66,6 +66,10 @@ $ # .\env\Scripts\activate
 $
 $ # Install modules - SQLite Storage
 $ pip3 install -r requirements.txt
+
+$ # Dump data : 
+$ # python manage.py dumpdata > datadump.json
+$ # python manage.py migrate --run-syncdb
 $
 $ # Create tables
 $ python manage.py makemigrations

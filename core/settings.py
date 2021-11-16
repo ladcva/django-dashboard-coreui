@@ -71,10 +71,15 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME' : 'istech_management',
+        'HOST' : '127.0.0.1',
+        'USER' : 'root',
+        'PASSWORD' : '1',
+        'PORT' : '3306',
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
