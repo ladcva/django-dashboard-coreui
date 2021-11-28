@@ -55,4 +55,4 @@ def users(request):
     return HttpResponse(html_template.render(context, request))
 
 class MemberList(ListView):
-    model = Members
+    model = Members()
